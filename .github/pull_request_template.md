@@ -2,7 +2,7 @@
 Link / ID: SCRUM-
 
 ### What did you change?
-- 
+- nothing
 
 ### How was this tested?
 - [ ] Ran the script locally in terminal
