@@ -1,5 +1,5 @@
 ### Jira Ticket
-Link / ID: SCRUM-xx (https://javeriaahmad.atlassian.net/browse/SCRUM-xx)
+Link / ID: SCRUM-
 
 ### What did you change?
 - 
