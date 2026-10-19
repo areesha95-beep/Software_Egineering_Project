@@ -1,0 +1,26 @@
+# 5 Standard Hardware Test Cases for Sprint 1
+cases:
+  - id: PC-01-counter
+    name: "8-bit Up Counter"
+    request: "Write an 8-bit synchronous up counter with enable and active-low synchronous reset. Ports: clk, rst_n, en, count."
+    expected_ports: [clk, rst_n, en, count]
+
+  - id: PC-02-mux4
+    name: "4-to-1 Multiplexer"
+    request: "Write a 4-to-1 multiplexer for 8-bit data. Ports: d0, d1, d2, d3, sel, y."
+    expected_ports: [d0, d1, d2, d3, sel, y]
+
+  - id: PC-03-alu
+    name: "Simple 8-bit ALU"
+    request: "Write an 8-bit ALU supporting ADD, SUB, AND, OR with a zero flag. Ports: a, b, op, y, zero."
+    expected_ports: [a, b, op, y, zero]
+
+  - id: PC-04-fifo
+    name: "Synchronous FIFO Buffer"
+    request: "Write a synchronous FIFO of depth 8 and width 8 with full and empty flags. Ports: clk, rst_n, wr_en, rd_en, din, dout, full, empty."
+    expected_ports: [clk, rst_n, wr_en, rd_en, din, dout, full, empty]
+
+  - id: PC-05-fsm
+    name: "Sequence Detector FSM"
+    request: "Write a Moore FSM that detects sequence 1011. Ports: clk, rst_n, din, detected."
+    expected_ports: [clk, rst_n, din, detected]
